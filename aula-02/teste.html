@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title className="text-4xl">Atividade - Front-end Estático</title>
+    <link rel="stylesheet" href="../dist/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@100;300;400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="https://res.cloudinary.com/dgeeyohmv/image/upload/v1695006414/k3qiyblwfk0gs7zuw71j.png"
+    />
+    <link rel="stylesheet" href="./assets/js/style.css" />
+    <link rel="stylesheet" href="./src/assets/css/style.css" />
+  </head>
+  <body class="bg-[#181d23]">
+    <header>
+      <div
+        class="w-full flex mx-auto items-center justify-center mr-auto ml-auto relative"
+      >
+        <img
+          class="w-[80px] absolute top-10"
+          src="https://res.cloudinary.com/dgeeyohmv/image/upload/v1695008540/Ada/ryojcrtncrh2mxvkclnh.jpg "
+          alt=""
+        />
+      </div>
+    </header>
+    <main>
+      <section class="h-screen flex items-center justify-center mx-auto">
+        <div
+          class="block max-w-md rounded-lg bg-gray-800 p-6 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)]"
+        >
+          <form
+            id="form"
+            class="w-full h-full md:h-[400px] flex flex-col gap-4 relative text-white borde p-7 md:py-7 justify-center border-solid border-[#333] rounded-lg"
+            action="https://api.sheetmonkey.io/form/8qkiUvcobLFUVZQgG38F4F"
+            method="post"
+          >
+            <p
+              class="text-xl md:text-2xl font-semibold relative flex text-white text-center gap-5 justify-center items-center"
+            >
+              Receba os melhores descontos!
+            </p>
+            <p class="text-[14.5px] md:text-base text-gray-300 text-center">
+              Cadastre-se e receba descontos exclusivos.
+            </p>
+
+            <label>
+              <input
+                class="bg-[#333] text-white w-full p-4 rounded-lg border-solid border focus:border-purple-800 outline-0 text-start flex items-center justify-center"
+                type="text"
+                name="Name"
+                required
+                pattern="[A-Za-zÀ-ÖØ-öø-ÿ\s]+"
+                title="Apenas letras são permitidas"
+                placeholder="Nome Completo"
+              />
+            </label>
+
+            <label>
+              <input
+                class="bg-[#333] text-white w-full p-4 rounded-lg border-solid border focus:border-purple-800 outline-0 text-start flex items-center justify-center"
+                type="email"
+                name="Email"
+                required
+                placeholder="Digite seu e-mail"
+              />
+            </label>
+
+            <div class="flex items-center mb-4">
+              <input
+                id="checkbox"
+                type="checkbox"
+                name="checkbox"
+                value="Acabou com o email dele"
+                class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 dark:focus:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
+              />
+              <label
+                for="checkbox-2"
+                class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300"
+                >Exploda meu e-mail com ofertas</label
+              >
+            </div>
+            <div class="flex items-center mb-4">
+              <input
+                id="checkbox2"
+                type="checkbox"
+                name="checkbox2"
+                value="se ferrou"
+                class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 dark:focus:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
+              />
+              <label
+                for="checkbox-2"
+                class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300"
+                >Faça eu ter que criar outro e-mail</label
+              >
+            </div>
+
+            <input
+              type="hidden"
+              name="Created"
+              value="x-sheetmonkey-current-date-time"
+            />
+
+            <input
+              id="submit-button"
+              type="submit"
+              value="Enviar"
+              class="bg-green-600 hover:bg-green-700 shadow-lg hover:shadow-green-300/50 transition text-white w-full text-center p-3 rounded-xl"
+            />
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer></footer>
+  </body>
+</html>
