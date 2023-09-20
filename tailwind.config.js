@@ -9,9 +9,7 @@ module.exports = {
       },
 
       backgroundImage: {
-        hero: "url('https://res.cloudinary.com/dgeeyohmv/image/upload/v1693963744/fs6fghc2bzwoltyxetnb.jpg')",
-        slider:
-          "url('https://res.cloudinary.com/dgeeyohmv/image/upload/v1693963847/fuvme37nrpeqcsnbsnnc.jpg')",
+        space: "url('https://www.spacejam.com/1996/img/bg_stars.gif')",
       },
 
       button: {
